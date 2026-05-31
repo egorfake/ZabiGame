@@ -3,9 +3,19 @@ from tkinter import Toplevel, Label, Menu
 from PIL import Image, ImageTk
 import random
 import csv
+import os
+import sys
 
-IMAGE_PATH = "RusselZ.png"
-PHRASES_CSV = "phrases.csv"
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+
+IMAGE_PATH = resource_path("RusselZ.png")
+PHRASES_CSV = resource_path("phrases.csv")
 CHAR_W = 220
 CHAR_H = 314
 
