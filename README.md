@@ -1,6 +1,9 @@
 # ZabiGame
 ZabiGame by linta
 
+<img width="610" height="431" alt="уууу" src="https://github.com/user-attachments/assets/1fd43217-5098-483c-bfc3-d911f1ab0bc5" />
+
+
 Будут добавлены новые функции, такие как:
 1. можно кормить
 2. перетаскивать в другую сторону
